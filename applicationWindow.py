@@ -41,7 +41,7 @@ class MyApplication(Gtk.Application):
         # show the window and all its content
         # this line could go in the constructor of MyWindow as well
         win.show_all()
-
+        # set_position and set_default_size could be used with application window also
     # start up the application
     # Note that the function in C startup() becomes do_startup() in Python
     def do_startup(self):
